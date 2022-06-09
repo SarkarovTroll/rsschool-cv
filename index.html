@@ -4,39 +4,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Cv</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <header class="header">
-       <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
-              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
-              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-            </ul>
-          </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="nav_cont">
+                <ul class="nav__flexbox" >
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#language">Language</a></li>
+                    <li><a href="#courses">Cources</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="section">
 
-       </div>
 
-   </header>
-  
-   <main class="main">
-       <div class="container">
+        <div class="container">
+            <div class="flex__box">
+               <div class="flexim__head"> 
+                 <div class="head__item">
+                     <div>
+                         <img src="./assets/img/avatar1.jpg " alt="me it's me" class="fotka">
+                     </div>
+                 </div>
+                 <div class="head__item2">
+                     <h1 class="name">Sarkarov Abobakir</h1>
+                    <span class="dream">Future software engineer</span>
+                 </div>
+               </div>
 
-       </div>
 
-   </main>
-   
-   <footer class="footer">
-       <div class="container">
+               <div class="flexim">
+                <div class="content__title">
+                       <h2 class="title1" id="contacts">Contacts</h2>
+                   </div>
+                   <div class="contacts__item">
+                       <ul>
+                          <li class="contli">
+                              <img src="/assets/icons/location-dot-solid.svg" class="ico">
+                              Andijan, Uzbekistan
+                          </li>
+                          <li class="contli">
+                              <img src="/assets/icons/phone-solid.svg" class="ico"> +998 97 973 1017
+                        </li>
+                          <li class="contli">
+                            <img src="/assets/icons/envelope-solid.svg" class="ico"> SarkarovAbobakir98@gmail.com
+                          </li>
+                          <li class="contli">
+                            <img src="/assets/icons/github-brands.svg" class="ico"> 
+                            <a href="https://github.com/Sarkarovtroll/rsschool-cv">SarkarovTroll</a>
+                          </li>
+                          <li class="contli">
+                              <img src="/assets/icons/telegram-brands.svg" class="ico">
+                              <a href="https://t.me/watch_out_for_this">Troll</a>
+                          </li>
+                       </ul>
+                   </div>
+                </div>
 
-       </div>
 
-   </footer>
+               <div class="flexim">
+                   <div class="about" id="aboutme">
+                       <h2 class="title1">About me</h2>
+                   </div>
+                   <p class="a__text">
+                    &nbsp;&nbsp;&nbsp;&nbsp; I’m a nice fun and friendly person, I’m honest and punctual, I work well in a team but also on my own as I like to set myself goals which I will achieve, I have good listening and communication skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.
+                   </p>
+               </div>
+               <div class="flexim">
+                   <div class="skills" id="skills">
+                       <h2 class="title1">Skills</h2>
+                   </div>
+                   <div class="skill__con">
+                       <ul>
+                           <li class="contli">
+                               <img src="/assets/icons/ic_color/html-5.png" class="ico">
+                               HTML Basics
+
+                           </li>
+                           <li class="contli">
+                            <img src="/assets/icons/ic_color/css.png" class="ico">
+                            CSS Basics
+                           </li>
+                           <li class="contli">
+                            <img src="/assets/icons/ic_color/js.png" class="ico">
+                            JavaScript Basics
+                           </li>
+                           <li class="contli">
+                            <img src="/assets/icons/ic_color/github.png" class="ico">
+                            Git, GitHub Basics
+                           </li>
+                       </ul>
+                   </div>
+
+               </div>
+
+
+
+               <div class="flexim">
+                   <div class="code" id="code">
+                       <h2 class="title1">Code Example</h2>
+                   </div>
+                   <p class="a__text1">
+                    for _ in range(1000):<br>
+                    print <mark>("Hello, World!")</mark>
+                   </p> 
+               </div>
+               <div class="flexim">
+                   <div class="courses" id="courses">
+                       <h2 class="title1">
+                           Courses
+                       </h2>
+                   </div>
+                   <div class="course__con">
+                       <ul>
+                           <li class="contli">
+                               <img src="/assets/icons/ic_color/rs school.png" class="ico">
+                               Rs School  Frontend (in progress)
+                           </li>
+                           
+                       </ul>
+                   </div>
+               </div>
+               <div class="flexim">
+                   <div class="language">
+                       <h2 class="title1" id="language">Languages</h2>
+                   </div>
+                   <div class="lang__con">
+                       <ul>
+                           <li class="contli">
+                            <img src="./assets/icons/ic_color/united-kingdom.png" class="ico">
+                            English  B2
+                        </li>
+                           <li class="contli">
+                            <img src="./assets/icons/ic_color/russia.png" class="ico">
+                            Russian strong B2
+                           </li>
+                           <li class="contli">
+                            <img src="./assets/icons/ic_color/uzbekistan.png" class="ico">
+                            Uzbek native
+                           </li>
+                       </ul>
+                   </div>
+                   
+               </div>
+               <div class="flexim">
+                   <div class="education" id="education">
+                       <h2 class="title1">Education</h2>
+                   </div>
+                   <div class="edu__con">
+                       <ul>
+                           <li class="contli">
+                               <img src="./assets/icons/ic_color/education.png" class="ico">
+                               Boston Academic lyceum <br>
+                               (social humanitarian and cultural subjects)
+                        </li>
+                       </ul>
+                   </div>
+               </div>
+               <div class="flexim">
+                   <div class="projects" id="projects">
+                       <h2 class="title1">Projects</h2>
+                   </div>
+                   <div class="pro__con">
+                       <ul>
+                           <li class="contli"> 
+                               <img src="/assets/icons/ic_color/blueprint.png" class="ico">
+                               <a href="https://github.com/Sarkarov-apple/rsschool-cv">Project CV in GitHub</a>
+                        </li>
+                           
+                       </ul>
+                   </div>
+               </div>
+        
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <footer class="footer">
+            <div class="container">
+                <div class="foot__flex">
+                    <div class="foot__con">
+                        <div class="landlord">Sarkarov 2022</div>
+                    </div>
+                    <div class="foot__con">
+                        <div class="logo">
+                            <a href="https://github.com/Sarkarovtroll"><img src="/assets/icons/ic_color/github.png" class="icon"> </a>
+                            <a href="https://rs.school/js/"> <img src="./assets/icons/rs iccc.png" class="icon">  </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
